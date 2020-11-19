@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    background-image: url("../img/paper.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;;
+
+}
+
+.nav {
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    /* float: left; */
+}
+
+ul li button{
+    font-size: 15px;
+    font-family: "Arial Black";
+    color: #14191d;
+    padding: 0 20px;
+    margin: 10px;
+
+}
+
+.grady {
+    background-color: #13120f;
+    background-image: radial-gradient(circle, #f3a214, yellow, #ec3131);
+}
+.headerb h1 {
+    margin: 10px;
+    text-shadow: 2px 2px 5px #ab0be2;
+    color: #0b100b;
+    opacity: 1 !important;
+}
+.selectcl {
+    position:relative;
+    display:inline-block;
+    left: 50%;
+    transform: translate(-50%,5%);
+
+
+
+}
+#transid {
+    display: inline-block;
+    font-size: x-large;
+
+}
+.wiredfont {
+    font-family: 'Schoolbell', arial, serif;;
+
+}
+.txt1 {
+    display: block;
+    width: 80%;
+}
+pre {
+    padding: 10px;
+    margin-left: 10px;
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+.nondis {
+    display: none;
+}
+#OpHdiv {
+    display: inline-block;
+    height: 100%;
+}
+#OpH {
+    float: right;
+    margin: 10px;
+    border: 1px solid #e9bbbb;
+    outline-style: solid;
+    outline-color: rgba(50, 115, 220, 0.3);
+    outline-width: 7px;
+    width: 50%;
+    height: auto;
+}
+table tr {
+    font-size: xx-large;
+    font-family: 'Schoolbell', arial, serif;;
+}
+table {
+    display: inline-block;
+}
+
+.col-3 {width: 25%;}
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+.menu ul li{
+    display: inline;
+}
+
+
+
+.middle {
+    width: 500px;
+    position: absolute;
+    right: 50%;
+    transform: translate(50%, 0%);
+
+}
+#ifrID {
+    width: 350px;
+    height: 300px;
+
+}
+.pad {
+    padding: 10px;
+}
+@media only screen and (max-width: 455px) {
+    .menu ul {
+        display: inline-block;
+    }
+}
+@media only screen and (max-width: 675px) {
+    #otvHodinID {
+        display: inline-block;
+
+    }
+    #OpH {
+        float: left;
+    }
+}
+@media only screen and (max-width: 390px) {
+    #ifrID {
+        width: 50%;
+        height: auto;
+    }
+}
